@@ -44,6 +44,3 @@ def fix_fuel_config(config):
             return ';'.join(points)
     else:
         return "KEEP_PREVIOUS"
-
-
-print(fix_fuel_config('1:2;1:2;3.5:7;4:8'))
