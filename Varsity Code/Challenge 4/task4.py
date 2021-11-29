@@ -1,6 +1,3 @@
-# £1 into account on Monday (day 1), then £1 more than day before
-# On each subsequent Monday, it is £1 more than the previous Monday
-
 def number_of_days_to_save(moneysaved):
     decimalpoints = str(moneysaved)[::-1].find('.')
     try:
@@ -25,11 +22,3 @@ def number_of_days_to_save(moneysaved):
             day += 1
         daysneeded = 7 * (week - 1) + day
         return daysneeded
-
-
-
-
-
-
-print('correct answer = 4. My answer = ', number_of_days_to_save(8.630))
-print('correct answer = 10. My ansewer = ', number_of_days_to_save(36))
