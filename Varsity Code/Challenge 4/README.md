@@ -1,5 +1,5 @@
 ## Brief Description
-This was the fourth challenge in Varsity Code 2021, which was set by LLoyds Banking Group. It took me 30 minutes to complete this challenge, and I got a score of 100%. I was very proud of this score, as it is the first 100% I have gotten within Varsity Code 2021. I believe I took my previous mistakes into account to think of all edge cases. I hope to continue this high score within the future challenges.
+This was the fourth challenge in Varsity Code 2021, which was set by Lloyds Banking Group. It took me 30 minutes to complete this challenge, and I got a score of 100%. I was very proud of this score, as it is the first 100% I have gotten within Varsity Code 2021. I believe I took my previous mistakes into account to think of all edge cases. I hope to continue this high score within the future challenges.
 
 ## Challenge Description
 Natalie wants to save money for her first laptop. She puts money into her ABC Bank Account every day.
