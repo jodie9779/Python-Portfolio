@@ -35,5 +35,3 @@ def redact_card_details(message):
         return ['MASTERCARD', MC_message]
     elif first_card == 'VISA':
         return ['VISA', VISA_message]
-
-print(redact_card_details(" "))
