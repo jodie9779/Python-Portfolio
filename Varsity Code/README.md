@@ -1,7 +1,7 @@
 ## Varsity Code 2021
 ### Skills Gained - competitive programming, consideration for edge cases, regular expressions
 
-This currently contains challenge 1, 2, 3, 4 and 5. It also contains the 5 extra challenges from Lloyds Banking Group (LBG). I will update with future challenges once each challenge in completed.
+This currently contains challenge 1, 2, 3, 4 and 5. It also contains the 5 extra challenges from Lloyds Banking Group (LBG), which I came joint first in. I will update with future challenges once each challenge in completed.
 
 This was my first time competing in a coding competition, so I have learnt a lot about competitive programming. It is also the first time I have been properly given a brief which I have to think of edge cases for, which I believe is making my programming better in the long run. It is allowing me to create programmes for scenarios which I otherwise wouldn't have thought of, which I am enjoying doing. I have also enjoyed seeing other people's solutions once each challenge has ended, as it has allowed me to see how I could have more efficiently programmed, which I will take forward for future code.
 
