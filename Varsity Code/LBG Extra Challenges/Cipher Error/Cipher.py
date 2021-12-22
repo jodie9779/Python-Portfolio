@@ -1,4 +1,3 @@
-
 def split_string_on_change(CipherString):
     length = len(CipherString)
     current = 0
