@@ -6,25 +6,25 @@ Forex trading, or FX trading, is the conversion of one currency into another. FX
 
 They have a system they use to capture these currency pair evaluations and the output from this system is in XML and looks like this:
 
-'<Trades>
+\<Trades>
 
-<Trade id='1' base='GBP' amount='10000'><FX quote='USD' rate='1.3629' /><FX quote='YEN' rate='154.68' /></Trade>
+\<Trade id='1' base='GBP' amount='10000'>\<FX quote='USD' rate='1.3629' />\<FX quote='YEN' rate='154.68' />\</Trade>
 
-<Trade id='2' base='GBP' amount='560000'><FX quote='EUR' rate='1.1796' /><FX quote='USD' rate='1.3629' /></Trade>
+\<Trade id='2' base='GBP' amount='560000'>\<FX quote='EUR' rate='1.1796' />\<FX quote='USD' rate='1.3629' />\</Trade>
 
-<Trade id='3' base='GBP' amount='2000000'><FX quote='ZAR' rate='20.24' /><FX quote='AUD' rate='1.85' /></Trade>
+\<Trade id='3' base='GBP' amount='2000000'>\<FX quote='ZAR' rate='20.24' />\<FX quote='AUD' rate='1.85' />\</Trade>
 
-<Trade id='4' base='GBP' amount='143800'><FX quote='EUR' rate='1.1796' /><FX quote='ZAR' rate='20.24' /></Trade>
+\<Trade id='4' base='GBP' amount='143800'>\<FX quote='EUR' rate='1.1796' />\<FX quote='ZAR' rate='20.24' />\</Trade>
 
-<Trade id='5' base='GBP' amount='67050'><FX quote='YEN' rate='154.68' /><FX quote='ZAR' rate='20.24' /></Trade>
+\<Trade id='5' base='GBP' amount='67050'>\<FX quote='YEN' rate='154.68' />\<FX quote='ZAR' rate='20.24' />\</Trade>
 
-<Trade id='6' base='GBP' amount='999999.98'><FX quote='EUR' rate='1.1796' /><FX quote='YEN' rate='154.68' /></Trade>
+\<Trade id='6' base='GBP' amount='999999.98'>\<FX quote='EUR' rate='1.1796' />\<FX quote='YEN' rate='154.68' />\</Trade>
 
-<Trade id='7' base='GBP' amount='500.63'><FX quote='AUD' rate='1.85' /><FX quote='ZAR' rate='20.24' /></Trade>
+\<Trade id='7' base='GBP' amount='500.63'>\<FX quote='AUD' rate='1.85' />\<FX quote='ZAR' rate='20.24' />\</Trade>
 
-<Trade id='8' base='GBP' amount='1800230'><FX quote='AUD' rate='1.85' /><FX quote='YEN' rate='154.68' /></Trade>
+\<Trade id='8' base='GBP' amount='1800230'>\<FX quote='AUD' rate='1.85' />\<FX quote='YEN' rate='154.68' />\</Trade>
 
-<Trades>'
+\<Trades>
 
 Some coding guidelines:
 * Create a parent (main) function that accepts a XML string (for a single trade) containing currency pair information and return a output showing the currency conversions applied.
@@ -35,10 +35,10 @@ Some coding guidelines:
 
 Example of currency pair conversions:
 
-INPUT: <Trade id='1' base='GBP' amount='10000'><FX quote='USD' rate='1.3629' /><FX quote='YEN' rate='154.68' /></Trade>    
+INPUT: \<Trade id='1' base='GBP' amount='10000'>\<FX quote='USD' rate='1.3629' />\<FX quote='YEN' rate='154.68' />\</Trade>    
   
 OUTPUT: Trade 1: GBP/USD = US$13,629.00; GBP/YEN = ¥1,546,800.00
   
-INPUT: <Trade id='2' base='GBP' amount='560000'><FX quote='EUR' rate='1.1796' /><FX quote='USD' rate='1.3629' /></Trade>  
+INPUT: \<Trade id='2' base='GBP' amount='560000'>\<FX quote='EUR' rate='1.1796' />\<FX quote='USD' rate='1.3629' />\</Trade>  
   
 OUTPUT: Trade 2: GBP/EUR = €660,576.00; GBP/USD = US$763,224.00
