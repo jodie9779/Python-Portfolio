@@ -6,7 +6,7 @@ Forex trading, or FX trading, is the conversion of one currency into another. FX
 
 They have a system they use to capture these currency pair evaluations and the output from this system is in XML and looks like this:
 
-<Trades>
+'<Trades>
 
 <Trade id='1' base='GBP' amount='10000'><FX quote='USD' rate='1.3629' /><FX quote='YEN' rate='154.68' /></Trade>
 
@@ -24,7 +24,7 @@ They have a system they use to capture these currency pair evaluations and the o
 
 <Trade id='8' base='GBP' amount='1800230'><FX quote='AUD' rate='1.85' /><FX quote='YEN' rate='154.68' /></Trade>
 
-<Trades>
+<Trades>'
 
 Some coding guidelines:
 * Create a parent (main) function that accepts a XML string (for a single trade) containing currency pair information and return a output showing the currency conversions applied.
