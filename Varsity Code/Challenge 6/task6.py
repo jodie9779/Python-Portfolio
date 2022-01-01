@@ -103,11 +103,4 @@ def store_items(axis, storageInstructions, getItem):
             which_item_letters.append(letter_and_amount)
     sorted_list = sorted(which_item_letters)
     return_string = ''.join(sorted_list)
-    print(return_string)
-
-
-
-
-store_items("X", [ "3A2B:X10Y2", "3D:X10", "3C:X-5X15" ], "X10")
-
-
+    return return_string
